@@ -1,0 +1,63 @@
+.experienceWraper {
+  padding: 40px;
+}
+.experienceWraper h2 {
+  width: 100%;
+  max-width: 700px;
+  letter-spacing: 2px;
+  color: black;
+  font-family: sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  padding: 4px;
+}
+.experoences {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.experoencesCard {
+  padding: 30px;
+  border-left: 1px solid #acacb4;
+  display: flex;
+}
+.experoencesCard > p {
+  color: #acacb4;
+}
+.experoencesCard > div {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 24px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 19px;
+  position: relative;
+  letter-spacing: 2px;
+}
+.collapsible::after {
+  content: "+";
+  position: absolute;
+  right: 32px;
+  top: 16px;
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+.content {
+  padding: 0 18px;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  font-size: 20px;
+  line-height: 34px;
+}
+.hidden {
+  display: none;
+}
