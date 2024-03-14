@@ -12,7 +12,7 @@ import {
 } from "react-icons/fa";
 import { MdOutlineWorkOutline } from "react-icons/md";
 import logo from "../../public/logo.png";
-import homePage from "../../public/homePage.jpg";
+import homePage from "../../public/homepage.jpg";
 import odc from "../../public/a1cf19143609197.6488c1adeb298.jpg";
 import Image from "next/image";
 export default async function Home() {
