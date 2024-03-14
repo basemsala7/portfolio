@@ -12,7 +12,7 @@ import {
 } from "react-icons/fa";
 import { MdOutlineWorkOutline } from "react-icons/md";
 import logo from "../../public/logo.png";
-import homePage from "@/public/homepage.jpg";
+// import homepage from "@/public/homepage.jpg";
 import odc from "../../public/a1cf19143609197.6488c1adeb298.jpg";
 import Image from "next/image";
 export default async function Home() {
@@ -56,7 +56,7 @@ export default async function Home() {
               </a>
             </div>
           </div>
-          <Image src={homePage} alt={"homePage"} />
+          {/* <Image src={homepage} alt={"homePage"} /> */}
         </div>
         <h2 style={{ padding: "32px" }}>Some Projects</h2>
         <div className="projectContainer">
