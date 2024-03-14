@@ -1,0 +1,35 @@
+header {
+  background-color: #ffffff;
+  margin: 0 auto;
+  max-width: 480px;
+  width: 100%;
+  position: sticky;
+  top: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 16px;
+  z-index: 100;
+}
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li a {
+  display: block;
+  color: #27272a;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  /* font-size: 1.2rem; */
+  font-family: sans-serif;
+}
+
+header li a:hover {
+  color: #14b8a6;
+}
+.active {
+  color: #14b8a6;
+}

@@ -1,0 +1,16 @@
+#pdfBtn {
+  background-color: tomato;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 300px;
+  align-self: baseline;
+  /* padding: 23px 64px; */
+  font-size: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+button svg {
+  align-self: center;
+}

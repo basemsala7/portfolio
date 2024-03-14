@@ -1,0 +1,26 @@
+.projectCardWraper {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 16px;
+  padding: 16px 24px;
+  min-height: 250px;
+  margin: 16px 8px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  cursor: pointer;
+}
+
+.projectCardWraper:hover {
+  background-color: #fafafa;
+}
+.projectCardWraper span {
+  margin-left: 16px;
+}
+.projectCardWraper a {
+  position: absolute;
+  bottom: 15px;
+}
+.projectCardWraper:hover a {
+  color: #14b8a6;
+}
