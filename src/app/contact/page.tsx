@@ -6,7 +6,11 @@ import { FaLocationDot } from "react-icons/fa6";
 import { useState } from "react";
 import { contactValidation } from "../../utli/validation";
 export default function Contact() {
-  const [data, setdata] = useState({ from: "", about: "", description: "" });
+  const [data, setdata] = useState({
+    from: "",
+    about: "",
+    description: "enter your message",
+  });
   const [valid, setValid] = useState("");
   const [loading, setloading] = useState(false);
   const [done, setDone] = useState(false);
@@ -112,7 +116,6 @@ export default function Contact() {
             placeholder="Message"
             onChange={changeHandleing}
             value={data.description}
-            defaultValue="Initial value"
           >
             enter your message
           </textarea>
