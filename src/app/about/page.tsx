@@ -16,13 +16,13 @@ export default function About() {
       <div className="aboutContainer">
         <div className="titleWraper">
           <h1>
-            I am Basem Salah live in Portsaid Egypt , where I design the future.
+            I am Basem Salah live in Portsaid Egypt where I design the future.
           </h1>
           <p>
             I have worked on a variety of projects over the years and I am proud
             of the progress I have made. Many of these projects are open-source
             and available for others to explore and contribute to. If you re
-            interested in any of the projects I have worked on, please feel free
+            interested in any of the projects I have worked on please feel free
             to check out the code and suggest any improvements or enhancements
             you might have in mind. Collaborating with others is a great way to
             learn and grow, and I am always open to new ideas and feedback
@@ -30,8 +30,8 @@ export default function About() {
 
           <h1>Education </h1>
           <p>
-            Student at the Faculty of Computers and Information, Suez Canal
-            University, in the final year.
+            Student at the Faculty of Computers and Information<br></br> Suez
+            Canal University <br></br> final year.
           </p>
         </div>
         <div className="right">

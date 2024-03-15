@@ -13,18 +13,18 @@ export default function ProjectsLayout({
         <Header />
 
         <div className="projectsPageContainer">
-          <h1>Things I’ve made trying to put my dent in the universe.</h1>
+          <h1>Things I have made trying to put my dent in the universe.</h1>
           <p>
             Ive worked on a variety of projects over the years and Im proud of
-            the progress Ive made. Many of these projects are open-source and
+            the progress I have made. Many of these projects are open-source and
             available for others to explore and contribute to. If youre
-            interested in any of the projects Ive worked on, please feel free to
+            interested in any of the projects Ive worked on please feel free to
             check out the code and suggest any improvements or enhancements you
             might have in mind.
           </p>
           <p id="hint">
             All the project details and demo can be found in README file by
-            visiting the GitHub link "View project"
+            visiting the GitHub link View project
           </p>
         </div>
         {children}

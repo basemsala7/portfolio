@@ -28,7 +28,7 @@ export default function Experience() {
       <Header />
       <div className="experienceWraper">
         <h2>
-          Crafting Seamless User Experiences: Frontend Development Journey
+          Crafting Seamless User Experiences Frontend Development Journey
         </h2>
         <Pdf />
       </div>
@@ -41,13 +41,13 @@ export default function Experience() {
               className="collapsible"
               onClick={() => openClose("iti")}
             >
-              ITI Summer Training{" "}
+              ITI Summer Training
             </button>
             <div className="content hidden" ref={iti} id="iti">
               <p>
                 i have attended the course entitled advanced web development
-                using React js (120h) clientside technologies , Respomsive
-                Design , css preprocessoe ECMA 6 and React
+                using React js (120h) clientside technologies  Respomsive
+                Design css preprocessoe ECMA 6 and React
               </p>
             </div>
           </div>
@@ -65,7 +65,7 @@ export default function Experience() {
             <div className="content hidden" ref={hackthon}>
               <p>
                 I participated in a hackathon affiliated with Orange Digital
-                Center. I was a member of a team consisting of five individuals:
+                Center. I was a member of a team consisting of five individuals
                 an mobile developer , a backend developer, UI/UX designer and
                 tester , and we worked on an E-wallet project "Tap cach"
               </p>

@@ -38,7 +38,7 @@ export default function Contact() {
       console.log(data);
       setDone(true);
       setTimeout(() => setDone(false), 2500);
-      setdata({ from: " ", about: " ", description: " " });
+      setdata({ from: "", about: "", description: "" });
 
       return data;
     } catch (error) {
@@ -90,7 +90,7 @@ export default function Contact() {
             Thank you for your interest in getting in touch with me. I welcome
             your feedback, questions, and suggestions. If you have a specific
             question or comment, please feel free to email me directly at
-            mail@tharindu.dev.{" "}
+            basembebo809@gmail.com
           </p>
           <input
             type="email"
