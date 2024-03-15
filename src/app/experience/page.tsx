@@ -67,7 +67,7 @@ export default function Experience() {
                 I participated in a hackathon affiliated with Orange Digital
                 Center. I was a member of a team consisting of five individuals
                 an mobile developer , a backend developer, UI/UX designer and
-                tester , and we worked on an E-wallet project "Tap cach"
+                tester , and we worked on an E-wallet project Tap cach
               </p>
             </div>
           </div>
