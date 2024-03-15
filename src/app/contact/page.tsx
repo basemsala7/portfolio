@@ -112,8 +112,9 @@ export default function Contact() {
             placeholder="Message"
             onChange={changeHandleing}
             value={data.description}
+            defaultValue="Initial value"
           >
-            {" "}
+            enter your message
           </textarea>
 
           <button onClick={sendMail}>
