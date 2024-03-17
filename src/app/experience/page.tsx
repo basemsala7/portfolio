@@ -27,12 +27,32 @@ export default function Experience() {
     <div className="container">
       <Header />
       <div className="experienceWraper">
-        <h2>
-          Crafting Seamless User Experiences Frontend Development Journey
-        </h2>
+        <h2>Crafting Seamless User Experiences Frontend Development Journey</h2>
         <Pdf />
       </div>
       <div className="experoences">
+        <div className="experoencesCard">
+          <p>4 june 2023</p>
+          <div>
+            <button
+              type="button"
+              className="collapsible"
+              onClick={() => openClose("intern")}
+            >
+              Frontend internship at ODC
+            </button>
+            <div className="content hidden" ref={intern}>
+              <p>
+                I trained at Orange Digital Center for a period of 3 months as a
+                frontend developer. During this time, I interacted with
+                individuals with high expertise in the field of software
+                engineering. Together, we worked on several projects from which
+                I gained valuable insights. I also benefited from understanding
+                the functioning of organizations and teamwork.
+              </p>
+            </div>
+          </div>
+        </div>
         <div className="experoencesCard">
           <p>13 july 2022</p>
           <div>
@@ -46,8 +66,8 @@ export default function Experience() {
             <div className="content hidden" ref={iti} id="iti">
               <p>
                 i have attended the course entitled advanced web development
-                using React js (120h) clientside technologies  Respomsive
-                Design css preprocessoe ECMA 6 and React
+                using React js (120h) clientside technologies Respomsive Design
+                css preprocessoe ECMA 6 and React
               </p>
             </div>
           </div>
@@ -68,28 +88,6 @@ export default function Experience() {
                 Center. I was a member of a team consisting of five individuals
                 an mobile developer , a backend developer, UI/UX designer and
                 tester , and we worked on an E-wallet project Tap cach
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="experoencesCard">
-          <p>4 june 2023</p>
-          <div>
-            <button
-              type="button"
-              className="collapsible"
-              onClick={() => openClose("intern")}
-            >
-              Frontend internship
-            </button>
-            <div className="content hidden" ref={intern}>
-              <p>
-                I trained at Orange Digital Center for a period of 3 months as a
-                frontend developer. During this time, I interacted with
-                individuals with high expertise in the field of software
-                engineering. Together, we worked on several projects from which
-                I gained valuable insights. I also benefited from understanding
-                the functioning of organizations and teamwork.
               </p>
             </div>
           </div>

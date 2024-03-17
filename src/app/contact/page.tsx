@@ -25,7 +25,7 @@ export default function Contact() {
   const postEmailReq = async () => {
     try {
       setloading(true);
-      const res = await fetch("http://localhost:3000/api/email", {
+      const res = await fetch("https://basem-portfolio.netlify.app/api/email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
