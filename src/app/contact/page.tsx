@@ -25,17 +25,14 @@ export default function Contact() {
   const postEmailReq = async () => {
     try {
       setloading(true);
-      const res = await fetch(
-        "https://vercel-test-256hr9u65-basemsala7s-projects.vercel.app/api/email",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            "Access-Control-Allow-Origin": "*",
-          },
-          body: JSON.stringify(data),
-        }
-      );
+      const res = await fetch("http://localhost:3000/api/email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Access-Control-Allow-Origin": "*",
+        },
+        body: JSON.stringify(data),
+      });
       if (!res.ok) throw Error("faild");
       const date = await res.json();
       setloading(false);
@@ -116,9 +113,7 @@ export default function Contact() {
             placeholder="Message"
             onChange={changeHandleing}
             value={data.description}
-          >
-            enter your message
-          </textarea>
+          ></textarea>
 
           <button onClick={sendMail}>
             Send
