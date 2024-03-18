@@ -5,6 +5,7 @@ body {
 }
 * {
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 .container {
   background-color: #ffffff;
@@ -13,4 +14,9 @@ body {
 a {
   text-decoration: none;
   color: black;
+}
+@media (max-width: 570px) {
+  body {
+    padding: 0;
+  }
 }

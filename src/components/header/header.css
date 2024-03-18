@@ -33,3 +33,8 @@ header li a:hover {
 .active {
   color: #14b8a6;
 }
+@media (max-width: 767px) {
+  header ul {
+    flex-wrap: wrap;
+  }
+}

@@ -22,3 +22,9 @@ li a:hover {
 .active {
   color: #14b8a6;
 }
+
+@media (max-width: 767px) {
+  ul {
+    flex-wrap: wrap;
+  }
+}

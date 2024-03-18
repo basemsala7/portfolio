@@ -9,7 +9,7 @@ export default function Contact() {
   const [data, setdata] = useState({
     from: "",
     about: "",
-    description: "enter your message",
+    description: "",
   });
   const [valid, setValid] = useState("");
   const [loading, setloading] = useState(false);
@@ -25,7 +25,7 @@ export default function Contact() {
   const postEmailReq = async () => {
     try {
       setloading(true);
-      const res = await fetch("https://basem-portfolio.netlify.app/api/email", {
+      const res = await fetch(`${process.env.DOMAIN}/api/email`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -38,17 +38,18 @@ export default function Contact() {
       setloading(false);
       console.log(data);
       setDone(true);
+      setValid("");
       setTimeout(() => setDone(false), 2500);
       setdata({ from: "", about: "", description: "" });
 
       return data;
     } catch (error) {
       setloading(false);
+      setValid("some thing Wrong Try again");
       console.log(error);
     } finally {
       setloading(false);
       setdata({ from: "", about: "", description: "" });
-      setValid("");
     }
   };
 

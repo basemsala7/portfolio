@@ -14,7 +14,7 @@ const Pdf = () => {
   };
   return (
     <button onClick={downloadPdf} id="pdfBtn">
-      <p>PDF</p> <FiDownload />{" "}
+      <p>My Resume</p> <FiDownload />{" "}
     </button>
   );
 };

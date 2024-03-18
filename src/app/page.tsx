@@ -65,6 +65,7 @@ export default async function Home() {
             <ProjectCard data={ele} key={ele.id} />
           ))}
         </div>
+        <h2 style={{ paddingLeft: "40px" }}>Resume and Experince</h2>
         <div className="experince">
           <Pdf />
 

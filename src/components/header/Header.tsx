@@ -7,6 +7,7 @@ import Link from "next/link";
 const Header = () => {
   const pathname = usePathname();
   console.log(pathname);
+  console.log(pathname.includes("/projects/)"), "include");
   return (
     <header>
       <ul>
@@ -23,7 +24,7 @@ const Header = () => {
         <li>
           <Link
             href="/projects/1"
-            className={pathname.includes("/projects/)") ? "active" : ""}
+            className={pathname.includes("/projects") ? "active" : ""}
           >
             Projects
           </Link>
