@@ -18,5 +18,6 @@ you can find all projects in projects page with the link of each projects repo
 
 <br></br>
 and you can Contact with me by sending email directly through Contact page form 
-![demo ](./Screenshot2024-03-15211527.png)<br></br> 
+![demo ](./contact.png)<br></br> 
+this feature my backend friend Eng.Ahmed Elhosiny helped me in it and I extend my thanks to him for assisting me in this part  
 
