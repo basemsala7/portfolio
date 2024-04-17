@@ -24,7 +24,7 @@ export default function ProjectsLayout({
           </p>
           <p id="hint">
             All the project details and demo can be found in README file by
-            visiting the GitHub link "View project"
+            visiting the GitHub link View project
           </p>
         </div>
         {children}
