@@ -31,7 +31,7 @@ export default function About() {
           <h1>Education </h1>
           <p>
             Student at the Faculty of Computers and Information<br></br> Suez
-            Canal University <br></br> final year.
+            Canal University <br></br> 2020 - 2024
           </p>
         </div>
         <div className="right">
